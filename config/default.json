@@ -1,0 +1,4 @@
+{
+  "port": 5000,
+  "baseURL": "https://hacker-news.firebaseio.com/v0"
+}

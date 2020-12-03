@@ -1,0 +1,24 @@
+@import './fonts';
+@import './resetDefStyles';
+@import '../components/Footer/footer.scss';
+@import '../components/Header/header.scss';
+@import '../components/Comments/comments.scss';
+@import '../components/Item/item.scss';
+@import '../components/Loader/loader.scss';
+@import '../components/Button/button.scss';
+@import '../components/Story/story.scss';
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: 'GothamPro';
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+p {
+  margin-bottom: 0.5em;
+}

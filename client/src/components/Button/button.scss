@@ -1,0 +1,33 @@
+.btn {
+  border: 2px solid #fff;
+  padding: 5px;
+  border-radius: 4px;
+  background: #1474a0;
+  opacity: 0.9;
+  img {
+    width: 30px;
+  }
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.btn_refresh {
+  margin-left: 5px;
+  border: 2px solid #173d9d;
+  background: #173d9d;
+}
+
+.btn_footer {
+  opacity: 0.1;
+}
+
+.btn_disabled {
+  background: #8b8d8c;
+  border: 2px solid #8b8d8c;
+  opacity: 0.3;
+  &:hover {
+    opacity: 0.3;
+    cursor: default;
+  }
+}
