@@ -24,7 +24,7 @@ export const Story: React.FC<StoryProps> = React.memo(
         </div>
         <h1 className="story__title">{title}</h1>
         <p className="story__link">
-          Link to the original article: <a href={url}>{url}/</a>
+          Link to the original article: <a href={url} target="_blank" rel="noopener noreferrer">{url}/</a>
         </p>
       </article>
     )
